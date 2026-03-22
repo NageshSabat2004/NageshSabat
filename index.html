@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nagesh Sabat - Web Developer Portfolio">
+    <title>NAGESH SABAT</title>
+    <link rel="icon" type="image/jpeg" href="assets/nageshphoto.jpeg">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">NAGESH <span class="neon-text">SABAT</span></div>
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-bg-lines"></div>
+                <div class="hero-content">
+                    <h1 class="huge-title hero-title">NAGESH SABAT</h1>
+                    <div class="hero-bottom-grid">
+                        <div class="hero-text left">
+                            <p>Crafting digital experiences with precision and modern aesthetics.</p>
+                        </div>
+                        <div class="hero-image-wrapper">
+                            <img src="assets/nageshphoto.jpeg" alt="Developer coding" class="hero-image">
+                        </div>
+                        <div class="hero-text right">
+                            <p>Specialized in building full-stack applications and premium UI design.</p>
+                            <a href="#projects" class="hero-scroll-link">Explore Work ↓</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="below-hero-filler"></div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section dark-section">
+            <div class="container">
+                <div class="about-layout">
+                    <div class="about-text-content">
+                        <h2 class="section-title lowercase">ABOUT</h2>
+                        <p class="about-desc">
+                            I am a passionate web developer focused on building robust and scalable web
+                            applications.
+                            With an eye for detail and a love for minimalist, editorial aesthetics, I bring ideas
+                            to life through clean code and modern design principles.
+                        </p>
+                    </div>
+                    <div class="about-badge-container">
+                        <div class="rotating-badge">
+                            <svg viewBox="0 0 200 200" class="badge-text-svg">
+                                <path id="curve" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"
+                                    fill="transparent" />
+                                <text font-size="16">
+                                    <textPath href="#curve" startOffset="0" textLength="502"
+                                        lengthAdjust="spacingAndGlyphs">FULL STACK • WEB DEV • UI • CODE • FULL STACK •
+                                        WEB DEV • UI • CODE • </textPath>
+                                </text>
+                            </svg>
+                            <div class="badge-inner">
+                                <img src="assets/nageshphoto.jpeg" alt="Laptop illustration" class="badge-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="projects-section dark-section">
+            <div class="container">
+                <div class="projects-header fade-in">
+                    <h2 class="section-title">projects</h2>
+                    <p class="section-desc">A curated selection of my recent works across frontend, backend, and
+                        full-stack development.</p>
+                </div>
+
+                <div class="projects-timeline">
+                    <!-- Project Item -->
+                    <div class="project-row fade-in">
+                        <div class="project-iframe-wrapper">
+                            <iframe src="https://buildev.vercel.app/" class="project-iframe"
+                                title="AI Web App Live Preview"></iframe>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-year">2024</div>
+                            <div class="project-info">
+                                <h3 class="project-title">AI Web App</h3>
+                                <p class="project-desc">Next.js • OpenAI • Tailwind</p>
+                            </div>
+                            <div class="project-action">
+                                <a href="https://example.com" target="_blank" class="btn btn-outline"
+                                    style="text-decoration: none;">View Site ↗</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Highlighted Project Item -->
+                    <div class="project-row highlighted fade-in">
+                        <div class="project-iframe-wrapper">
+                            <iframe src="https://buildev.vercel.app/" class="project-iframe"
+                                title="Portfolio Website Live Preview"></iframe>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-year">2023</div>
+                            <div class="project-info">
+                                <h3 class="project-title">Portfolio Website</h3>
+                                <p class="project-desc">HTML • CSS • JS</p>
+                            </div>
+                            <div class="project-action">
+                                <a href="https://example.com" target="_blank" class="btn btn-dark"
+                                    style="text-decoration: none;">View Site ↗</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS / GALLERY SECTION -->
+        <section id="skills" class="skills-section dark-section">
+            <div class="container">
+                <div class="skills-header fade-in">
+                    <div class="skills-header-text">
+                        <h2 class="section-title">skills</h2>
+                        <p class="section-desc">My technical toolkit and core competencies for building digital
+                            solutions.</p>
+                    </div>
+                    <button class="btn btn-outline">View All</button>
+                </div>
+
+                <div class="skills-featured-card fade-in">
+                    <div class="featured-content">
+                        <h3>Web Developer</h3>
+                        <p>Bridging the gap between beautiful interfaces and robust server architectures.</p>
+                    </div>
+                </div>
+
+                <div class="skills-gallery-wrapper fade-in">
+                    <button class="nav-btn prev-btn">←</button>
+                    <div class="skills-gallery hidden-scrollbar">
+                        <div class="skill-card">
+                            <h4>Frontend</h4>
+                            <ul>
+                                <li>React</li>
+                                <li>HTML</li>
+                                <li>Tailwind CSS</li>
+                                <li>JavaScript (ES6+)</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card">
+                            <h4>Backend</h4>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>MongoDB</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card">
+                            <h4>Tools</h4>
+                            <ul>
+                                <li>Git & GitHub</li>
+                                <li>Figma</li>
+                                <li>Vercel</li>
+                                <li>Docker</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="nav-btn next-btn">→</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section dark-section">
+            <div class="container fade-in">
+                <div class="contact-banner">
+                    <img src="assets/hand.jpg" alt="Developer Workspace" class="contact-bg-image">
+                    <div class="contact-overlay"></div>
+                    <div class="contact-content">
+                        <h2 class="huge-title">LET'S BUILD SOMETHING</h2>
+                        <button class="btn btn-dark huge-btn open-contact-modal">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer dark-section">
+        <div class="container">
+            <div class="footer-top">
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.02c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <h2 class="massive-title">NAGESH SABAT</h2>
+                <div class="footer-copyright">
+                    <p>&copy; 2026 Nagesh Sabat. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CONTACT MODAL -->
+    <div class="modal-overlay" id="contactModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <h3 class="modal-title">Get in Touch</h3>
+            <p class="modal-desc">Fill out the form below to discuss your project.</p>
+            <form class="contact-form" id="contactForm">
+                <input type="hidden" name="_subject" value="New Contact from Portfolio!">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="box">
+                <div class="form-group">
+                    <label for="clientName">Name</label>
+                    <input type="text" id="clientName" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="clientEmail">Email</label>
+                    <input type="email" id="clientEmail" name="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="clientProject">Project Details</label>
+                    <textarea id="clientProject" name="message" required
+                        placeholder="Tell me about what you want to build..." rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark submit-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
